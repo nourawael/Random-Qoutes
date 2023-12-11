@@ -1,0 +1,59 @@
+body{
+    background-image: url(../Images/2.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;;
+}
+.imgOpacity {
+    background-color: rgba(0, 0, 0, 0.425);
+    min-height: 100vh;
+}
+.qoute h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#f8f2f2;
+}
+
+.qoute h6{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color:#f8f2f2;
+}
+
+.qoute button{
+    background-color: transparent;
+    color:#f8f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    border-color: #f8f2f2;
+    padding: 10px 40px;
+    transition: all 1s;
+}
+.qoute button:hover{
+    background-color: #f8f2f2;
+    color: #8a7357;
+    border-color: #f8f2f2;
+}
+
+#randomQuote{
+    /* background-color: #8a735781; */
+    color:#f8f2f2;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 10px 20px; */
+}
+
+#randomQuoteAuthor{
+    font-size: 20px;
+    font-weight: 400;
+    /* background-color: #8a735775; */
+    color:#f8f2f2;
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+}
